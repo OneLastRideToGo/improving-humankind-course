@@ -1,0 +1,16 @@
+title: 'Improving Humankind '
+description: "I am \U0001F9B8‍♂️ \U0001F4AAon fixing the mistakes I haven done while being idle , any ideas \U0001F4A1 would be great to improve this \U0001F30E\U0001F5FA and my ⏲️ can weigh me down so if I'm not active I'm resting for the moment doing daily activities just bare with me love you all."
+template:
+  repo: improving-humankind-template
+  name: improving-humankind
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
